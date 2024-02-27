@@ -34,10 +34,10 @@ yarn
 start a development server:
 
 ```bash
-npm dev
+npm run dev
 
 # or start the server and open the app in a new browser tab
-npm dev -- --host
+npm run dev -- --host
 ```
 
 ## Building
@@ -45,13 +45,13 @@ npm dev -- --host
 To create a production version of your app:
 
 ```bash
-npm build
+npm run build
 ```
 
 You can preview the production build with:
 
 ```bash
-npm preview
+npm run preview
 ```
 
 
