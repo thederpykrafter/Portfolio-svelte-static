@@ -34,10 +34,10 @@ yarn
 start a development server:
 
 ```bash
-vite dev
+npm dev
 
 # or start the server and open the app in a new browser tab
-vite dev --host --0.0.0.0
+npm dev -- --host
 ```
 
 ## Building
@@ -45,13 +45,13 @@ vite dev --host --0.0.0.0
 To create a production version of your app:
 
 ```bash
-vite build
+npm build
 ```
 
 You can preview the production build with:
 
 ```bash
-vite preview
+npm preview
 ```
 
 
