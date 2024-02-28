@@ -2,7 +2,7 @@
 	"name": "sveltekit",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "vite dev --host 0.0.0.0",
+		"dev": "vite dev --host 0.0.0.0 --open",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
