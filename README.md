@@ -5,6 +5,7 @@ My first Svelte project, powered by [`create-svelte`](https://github.com/sveltej
 ## About this project
 
 I built this project entirely on [`replit.com`](https://replit.com)! <br>
+I also have the project set up locally just to make sure everything works on replit and locally. <br>
 A large majority is done using the mobile app on my Galaxy Z Flip 3 <br>
 No.. the screen size isnt exactly ideal for editing code but hey it works for me.<br>
 <br>
