@@ -7,9 +7,10 @@
 	--color-bg-0: rgb(202, 216, 228);
 	--color-bg-1: hsl(209, 36%, 86%);
 	--color-bg-2: hsl(224, 44%, 95%);
-	--color-theme-1: #ff3e00;
-	--color-theme-2: #8080ff;
+	--color-theme-1: #db9540;
+	--color-theme-2: #2b3137;
 	--color-text: rgba(0, 0, 0, 0.7);
+  --color-text-2: #fafbfc;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 	font-family: var(--font-body);
@@ -27,7 +28,16 @@ body {
 			rgba(255, 255, 255, 0.75) 0%,
 			rgba(255, 255, 255, 0) 100%
 		),
-		linear-gradient(180deg, var(--color-bg-0) 0%, var(--color-bg-1) 15%, var(--color-bg-2) 50%);
+		linear-gradient(
+			180deg, 
+			var(--color-bg-0) 0%, 
+			var(--color-bg-1) 15%, 
+			var(--color-bg-2) 25%,
+			var(--color-bg-2) 75%,
+	    var(--color-bg-1) 85%,
+			var(--color-bg-0) 100%, 
+
+      );
 }
 
 h1,
@@ -55,7 +65,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 pre {
@@ -91,6 +101,9 @@ button:focus:not(:focus-visible) {
 @media (min-width: 720px) {
 	h1 {
 		font-size: 2.4rem;
+	}
+	iframe {
+		width: 600;
 	}
 }
 

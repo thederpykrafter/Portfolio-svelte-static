@@ -21,8 +21,10 @@
 	</h2>
 
 	<p>
-		This is a demo app that I made using <a href="https://svelte.dev">Svelte</a> and <a href="https://kit.svelte.dev">SvelteKit</a>
+		You can check out the code below!
 	</p>
+
+	<iframe title="replit" src="https://replit.com/@JustinKulczyski/Portfolio-svelte-static?embed=true" width="105%" height="400"></iframe>
 </section>
 
 <style>
@@ -36,5 +38,10 @@
 
 	h1 {
 		width: 100%;
+	}
+
+	iframe {
+		border: 0;
+	  background-color: var(--color-theme-2);
 	}
 </style>

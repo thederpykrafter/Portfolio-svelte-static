@@ -1,6 +1,8 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+	import replit from '$lib/images/replit-logo.png';
+	import github from '$lib/images/github.svg';
 </script>
 
 
@@ -14,6 +16,15 @@
 
 	<footer>
 		<p>@thederpykrafter</p>
+		<div>
+		<a href="https://replit.com/@JustinKulczyski/">
+			<img src={replit} alt="Replit" />
+		</a>
+		
+		<a href="https://github.com/thederpykrafter/ ">
+			<img src={github} alt="GitHub" />
+		</a>
+		</div>
 	</footer>
 </div>
 
@@ -38,9 +49,10 @@
 	}
 
 	footer {
+		background-color: rgb(255,255,255,100);
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		flex-direction: row;
+		justify-content: space-between;
 		align-items: center;
 		padding: 12px;
 	}
@@ -53,5 +65,20 @@
 		footer {
 			padding: 12px 0;
 		}
+	}
+
+	a {
+		display: flex;
+		flex-direction: row;
+		
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	img {
+		width: 2em;
+		height: 2em;
+		object-fit: contain;
 	}
 </style>
