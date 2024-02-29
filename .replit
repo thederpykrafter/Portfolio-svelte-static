@@ -8,3 +8,7 @@ channel = "stable-23_11"
 build = ["npm", "run", "build"]
 deploymentTarget = "static"
 publicDir = "build"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
