@@ -54,23 +54,17 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding: 12px;
+		padding: 0 0.75rem 0 0.75rem;
 	}
 
 	footer p {
 		font-weight: bold;
 	}
 
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-
 	a {
 		display: flex;
 		flex-direction: row;
-		
+		display: inline;
 		justify-content: center;
 		width: 100%;
 		height: 100%;
