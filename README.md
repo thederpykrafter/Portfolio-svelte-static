@@ -9,7 +9,8 @@ I also have the project set up locally just to make sure everything works on rep
 A large majority is done using the mobile app on my Galaxy Z Flip 3 <br>
 No.. the screen size isnt exactly ideal for editing code but hey it works for me.<br>
 <br>
-I've spent some time messing with raw html, css and js and figured id see what allthe framework hype was all about.<br> So far im enjoying using svelte as it feels pretty natural compared to how react/react-native felt like i had to relearn everything from the beginning.
+I spent some time messing with raw html, css and js and figured id see what the framework hype was all about.<br>
+So far im enjoying using svelte as it feels pretty natural compared to how react/react-native felt like i had to relearn everything from scratch.
 
 ## Fork this project
 
