@@ -13,6 +13,7 @@
   --color-text-2: #fafbfc;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+	--card-border-radius: 0.5rem;
 	font-family: var(--font-body);
 	color: var(--color-text);
 }
