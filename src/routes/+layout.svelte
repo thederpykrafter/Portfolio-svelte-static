@@ -57,20 +57,11 @@
 		padding: 12px;
 	}
 
-	footer p {
+	p {
 		font-weight: bold;
 	}
 
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-
 	a {
-		display: flex;
-		flex-direction: row;
-		
 		justify-content: center;
 		width: 100%;
 		height: 100%;
@@ -81,4 +72,12 @@
 		height: 2em;
 		object-fit: contain;
 	}
+
+	@media (min-width: 480px) {
+		footer {
+			padding: 12px 0;
+		}
+	}
+
+	
 </style>
