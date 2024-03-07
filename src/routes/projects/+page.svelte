@@ -30,14 +30,8 @@
         text-align: center;
         margin: 1rem 0 1rem 0;
         color: var(--color-text-2);
+        border-radius: var(--card-border-radius;
     }
 
-    .repo {
-        display: flex;
-	    max-width: 48rem;
-	    flex: 0.6;
-	    flex-direction: column;
-	    justify-content: center;
-	    margin: 0 auto;
-    }
+
 </style>
